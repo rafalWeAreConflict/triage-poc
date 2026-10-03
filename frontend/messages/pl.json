@@ -1,0 +1,159 @@
+{
+  "nav": {
+    "triage": "Zgłoszenia",
+    "section": "Platforma",
+    "settings": "Ustawienia"
+  },
+  "user": {
+    "account": "Konto",
+    "notifications": "Powiadomienia",
+    "logout": "Wyloguj się"
+  },
+  "language": {
+    "label": "Język",
+    "en": "Angielski",
+    "pl": "Polski",
+    "es": "Hiszpański",
+    "fr": "Francuski",
+    "de": "Niemiecki",
+    "it": "Włoski",
+    "pt": "Portugalski"
+  },
+  "settings": {
+    "title": "Ustawienia",
+    "description": "Zarządzaj preferencjami aplikacji.",
+    "language": {
+      "title": "Język",
+      "description": "Wybierz język używany w całym interfejsie."
+    },
+    "theme": {
+      "title": "Wygląd",
+      "description": "Wybierz preferowany schemat kolorów.",
+      "light": "Jasny",
+      "dark": "Ciemny",
+      "system": "Systemowy"
+    }
+  },
+  "copilot": {
+    "title": "Asystent",
+    "initial": "Cześć! Mogę przyjąć i sklasyfikować zgłoszenie usterki (możesz dołączyć zdjęcie) albo przeprowadzić rekord przez workflow. W czym pomóc?",
+    "placeholder": "Zapytaj asystenta…",
+    "workflowApproval": {
+      "title": "Potwierdź przejście przepływu pracy",
+      "on": "w {workflow}",
+      "question": "Zastosować to przejście?",
+      "approve": "Zatwierdź",
+      "deny": "Odrzuć",
+      "approved": "Przejście zatwierdzone",
+      "denied": "Przejście odrzucone",
+      "waiting": "Oczekiwanie na asystenta…"
+    },
+    "triage": {
+      "title": "Propozycja zgłoszenia",
+      "unit": "Lokal",
+      "reporter": "Zgłasza",
+      "description": "Opis",
+      "category": "Kategoria",
+      "contractor": "Wykonawca",
+      "priorityLabel": "Priorytet",
+      "photo": "Zdjęcie",
+      "photoAttached": "Zdjęcie dołączone",
+      "reasoning": "Uzasadnienie",
+      "lessonApplied": "Zastosowano lekcję",
+      "preparing": "Przygotowuję propozycję…",
+      "approve": "Zatwierdź",
+      "correct": "Popraw",
+      "comment": "Komentarz",
+      "commentPlaceholder": "Dlaczego zmieniasz propozycję?",
+      "commentRequired": "Komentarz jest wymagany przy korekcie.",
+      "contractorRequired": "Wybierz wykonawcę.",
+      "nothingChanged": "Zmień co najmniej jedno pole albo zatwierdź propozycję bez zmian.",
+      "saveCorrection": "Zapisz korektę",
+      "cancel": "Anuluj",
+      "approved": "Zatwierdzono bez zmian",
+      "corrected": "Skorygowane przez administratora",
+      "priority": {
+        "low": "Niski",
+        "normal": "Normalny",
+        "high": "Wysoki",
+        "urgent": "Pilny"
+      },
+      "field": {
+        "category": "Kategoria",
+        "priority": "Priorytet",
+        "contractor": "Wykonawca"
+      }
+    },
+    "tool": {
+      "running": "W toku…",
+      "failed": "Błąd",
+      "denied": "Brak uprawnień",
+      "results": "{count, plural, one {# wynik} few {# wyniki} many {# wyników} other {# wyniku}}",
+      "names": {
+        "find_units": "Szukam lokalu",
+        "list_categories": "Pobieram kategorie",
+        "list_contractors": "Pobieram wykonawców",
+        "list_tickets": "Pobieram zgłoszenia",
+        "create_ticket": "Tworzę zgłoszenie"
+      }
+    },
+    "ticketCreated": {
+      "title": "Zgłoszenie utworzone",
+      "creating": "Tworzę zgłoszenie…",
+      "failed": "Nie utworzono zgłoszenia",
+      "unit": "Lokal",
+      "category": "Kategoria",
+      "contractor": "Wykonawca",
+      "priority": "Priorytet",
+      "state": "Stan",
+      "corrected": "Poprawione przez admina",
+      "photo": "Zdjęcie dołączone"
+    }
+  },
+  "triage": {
+    "title": "Zgłoszenia",
+    "subtitle": "Zgłoszenia usterek sklasyfikowane przez asystenta",
+    "live": "Wspólny stan",
+    "liveHint": "Agent aktualizuje tę listę przez wspólny stan AG-UI",
+    "updated": "Zaktualizowano {time}",
+    "empty": "Brak zgłoszeń.",
+    "loading": "Wczytywanie zgłoszeń…",
+    "loadError": "Nie udało się wczytać zgłoszeń.",
+    "draft": "Szkic / w trakcie",
+    "draftAwaiting": "Czeka na decyzję administratora",
+    "draftSaving": "Zapisywanie zgłoszenia…",
+    "newTicket": "Nowe",
+    "corrected": "Poprawione przez admina",
+    "photo": "Zdjęcie",
+    "noCategory": "Bez kategorii",
+    "noContractor": "Bez wykonawcy",
+    "chatDisabled": "Asystent jest wyłączony (NEXT_PUBLIC_COPILOT_ENABLED).",
+    "chatWelcome": "Opisz usterkę: co, gdzie (lokal) i kto zgłasza. Możesz dołączyć zdjęcie.",
+    "status": {
+      "new": "Nowe",
+      "proposed": "Zaproponowane",
+      "approved": "Zatwierdzone",
+      "assigned": "Przydzielone",
+      "closed": "Zamknięte"
+    },
+    "priority": {
+      "low": "Niski",
+      "normal": "Normalny",
+      "high": "Wysoki",
+      "urgent": "Pilny"
+    },
+    "details": {
+      "title": "Zgłoszenie {unit}",
+      "unit": "Lokal",
+      "reporter": "Zgłasza",
+      "description": "Opis",
+      "category": "Kategoria",
+      "contractor": "Wykonawca",
+      "priority": "Priorytet",
+      "status": "Status",
+      "created": "Utworzono",
+      "reference": "Identyfikator",
+      "open": "Pokaż szczegóły zgłoszenia {unit}"
+    }
+  }
+}

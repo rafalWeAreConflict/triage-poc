@@ -1,0 +1,159 @@
+{
+  "nav": {
+    "triage": "Ocorrências",
+    "section": "Plataforma",
+    "settings": "Configurações"
+  },
+  "user": {
+    "account": "Conta",
+    "notifications": "Notificações",
+    "logout": "Sair"
+  },
+  "language": {
+    "label": "Idioma",
+    "en": "Inglês",
+    "pl": "Polonês",
+    "es": "Espanhol",
+    "fr": "Francês",
+    "de": "Alemão",
+    "it": "Italiano",
+    "pt": "Português"
+  },
+  "settings": {
+    "title": "Configurações",
+    "description": "Gerencie as preferências da sua aplicação.",
+    "language": {
+      "title": "Idioma",
+      "description": "Escolha o idioma usado em toda a interface."
+    },
+    "theme": {
+      "title": "Aparência",
+      "description": "Escolha seu esquema de cores preferido.",
+      "light": "Claro",
+      "dark": "Escuro",
+      "system": "Sistema"
+    }
+  },
+  "copilot": {
+    "title": "Assistente",
+    "initial": "Olá! Posso triar pedidos de manutenção (anexe uma foto do defeito, se tiver) e avançar registros pelos seus fluxos de trabalho. O que você gostaria de fazer?",
+    "placeholder": "Pergunte ao assistente…",
+    "workflowApproval": {
+      "title": "Confirmar transição do fluxo de trabalho",
+      "on": "em {workflow}",
+      "question": "Aplicar esta transição?",
+      "approve": "Aprovar",
+      "deny": "Recusar",
+      "approved": "Transição aprovada",
+      "denied": "Transição recusada",
+      "waiting": "Aguardando o assistente…"
+    },
+    "triage": {
+      "title": "Proposta de chamado",
+      "unit": "Unidade",
+      "reporter": "Reportado por",
+      "description": "Descrição",
+      "category": "Categoria",
+      "contractor": "Prestador",
+      "priorityLabel": "Prioridade",
+      "photo": "Foto",
+      "photoAttached": "Foto anexada",
+      "reasoning": "Justificativa",
+      "lessonApplied": "Lição aplicada",
+      "preparing": "Preparando a proposta…",
+      "approve": "Aprovar",
+      "correct": "Corrigir",
+      "comment": "Comentário",
+      "commentPlaceholder": "Por que você está alterando a proposta?",
+      "commentRequired": "Um comentário é obrigatório para a correção.",
+      "contractorRequired": "Escolha um prestador.",
+      "nothingChanged": "Altere pelo menos um campo ou aprove a proposta como está.",
+      "saveCorrection": "Salvar correção",
+      "cancel": "Cancelar",
+      "approved": "Aprovada conforme proposto",
+      "corrected": "Corrigida pelo administrador",
+      "priority": {
+        "low": "Baixa",
+        "normal": "Normal",
+        "high": "Alta",
+        "urgent": "Urgente"
+      },
+      "field": {
+        "category": "Categoria",
+        "priority": "Prioridade",
+        "contractor": "Prestador"
+      }
+    },
+    "tool": {
+      "running": "Em curso…",
+      "failed": "Falhou",
+      "denied": "Sem permissão",
+      "results": "{count, plural, one {# resultado} other {# resultados}}",
+      "names": {
+        "find_units": "A procurar a fração",
+        "list_categories": "A listar categorias",
+        "list_contractors": "A listar prestadores",
+        "list_tickets": "A listar ocorrências",
+        "create_ticket": "A criar a ocorrência"
+      }
+    },
+    "ticketCreated": {
+      "title": "Ocorrência criada",
+      "creating": "A criar a ocorrência…",
+      "failed": "Ocorrência não criada",
+      "unit": "Fração",
+      "category": "Categoria",
+      "contractor": "Prestador",
+      "priority": "Prioridade",
+      "state": "Estado",
+      "corrected": "Corrigida pelo administrador",
+      "photo": "Foto anexada"
+    }
+  },
+  "triage": {
+    "title": "Ocorrências",
+    "subtitle": "Pedidos de manutenção classificados pelo assistente",
+    "live": "Estado partilhado",
+    "liveHint": "O agente mantém esta lista sincronizada através do estado partilhado AG-UI",
+    "updated": "Atualizado {time}",
+    "empty": "Ainda não há ocorrências.",
+    "loading": "A carregar ocorrências…",
+    "loadError": "Não foi possível carregar as ocorrências.",
+    "draft": "Rascunho / em curso",
+    "draftAwaiting": "A aguardar a decisão do administrador",
+    "draftSaving": "A guardar a ocorrência…",
+    "newTicket": "Nova",
+    "corrected": "Corrigida pelo administrador",
+    "photo": "Foto",
+    "noCategory": "Sem categoria",
+    "noContractor": "Sem prestador",
+    "chatDisabled": "O assistente está desativado (NEXT_PUBLIC_COPILOT_ENABLED).",
+    "chatWelcome": "Descreva a avaria: o quê, onde (fração) e quem a reporta. Pode anexar uma foto.",
+    "status": {
+      "new": "Nova",
+      "proposed": "Proposta",
+      "approved": "Aprovada",
+      "assigned": "Atribuída",
+      "closed": "Fechada"
+    },
+    "priority": {
+      "low": "Baixa",
+      "normal": "Normal",
+      "high": "Alta",
+      "urgent": "Urgente"
+    },
+    "details": {
+      "title": "Ocorrência {unit}",
+      "unit": "Fração",
+      "reporter": "Reportada por",
+      "description": "Descrição",
+      "category": "Categoria",
+      "contractor": "Prestador",
+      "priority": "Prioridade",
+      "status": "Estado",
+      "created": "Criada",
+      "reference": "Referência",
+      "open": "Ver detalhes da ocorrência {unit}"
+    }
+  }
+}

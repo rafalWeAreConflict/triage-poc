@@ -1,0 +1,37 @@
+.idea/
+backend/backend.iml
+client_secret*.json
+*.env.local
+.env
+local.env
+backend/static/app/
+*.iml
+backend/.coverage
+backend/Pipfile.bak
+docker/runtime/
+.navegador/graph.db
+.navegador/.env
+app/code-kg.json
+__pycache__/
+
+# Local credential drop files (never commit)
+copilotkit.token
+*.token
+
+# CopilotKit onboarding proof artifacts (local evidence, logs)
+.copilotkit/proof/
+
+# Personal demo notes (local only)
+NOTES.md
+
+# Local-only config that must never be committed
+backend/config/ci-local.env
+backend/googlecredentials.json
+# CopilotKit CLI project binding (account ids); `copilotkit project select` recreates it
+.copilotkit/project.json
+
+# Coding-agent instructions and skills (local only)
+.claude/
+.agents/
+CLAUDE.md
+AGENTS.md

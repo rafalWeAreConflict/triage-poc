@@ -1,0 +1,159 @@
+{
+  "nav": {
+    "triage": "Signalements",
+    "section": "Plateforme",
+    "settings": "Paramètres"
+  },
+  "user": {
+    "account": "Compte",
+    "notifications": "Notifications",
+    "logout": "Se déconnecter"
+  },
+  "language": {
+    "label": "Langue",
+    "en": "Anglais",
+    "pl": "Polonais",
+    "es": "Espagnol",
+    "fr": "Français",
+    "de": "Allemand",
+    "it": "Italien",
+    "pt": "Portugais"
+  },
+  "settings": {
+    "title": "Paramètres",
+    "description": "Gérez les préférences de votre application.",
+    "language": {
+      "title": "Langue",
+      "description": "Choisissez la langue utilisée dans toute l'interface."
+    },
+    "theme": {
+      "title": "Apparence",
+      "description": "Choisissez votre schéma de couleurs préféré.",
+      "light": "Clair",
+      "dark": "Sombre",
+      "system": "Système"
+    }
+  },
+  "copilot": {
+    "title": "Assistant",
+    "initial": "Bonjour ! Je peux trier les demandes de maintenance (joignez une photo du défaut si vous en avez une) et faire avancer les enregistrements dans leurs workflows. Que souhaitez-vous faire ?",
+    "placeholder": "Demandez à l'assistant…",
+    "workflowApproval": {
+      "title": "Confirmer la transition du workflow",
+      "on": "sur {workflow}",
+      "question": "Appliquer cette transition ?",
+      "approve": "Approuver",
+      "deny": "Refuser",
+      "approved": "Transition approuvée",
+      "denied": "Transition refusée",
+      "waiting": "En attente de l'assistant…"
+    },
+    "triage": {
+      "title": "Proposition de ticket",
+      "unit": "Logement",
+      "reporter": "Signalé par",
+      "description": "Description",
+      "category": "Catégorie",
+      "contractor": "Prestataire",
+      "priorityLabel": "Priorité",
+      "photo": "Photo",
+      "photoAttached": "Photo jointe",
+      "reasoning": "Justification",
+      "lessonApplied": "Leçon appliquée",
+      "preparing": "Préparation de la proposition…",
+      "approve": "Approuver",
+      "correct": "Corriger",
+      "comment": "Commentaire",
+      "commentPlaceholder": "Pourquoi modifiez-vous la proposition ?",
+      "commentRequired": "Un commentaire est requis pour une correction.",
+      "contractorRequired": "Choisissez un prestataire.",
+      "nothingChanged": "Modifiez au moins un champ ou approuvez la proposition telle quelle.",
+      "saveCorrection": "Enregistrer la correction",
+      "cancel": "Annuler",
+      "approved": "Approuvé tel que proposé",
+      "corrected": "Corrigé par l'administrateur",
+      "priority": {
+        "low": "Basse",
+        "normal": "Normale",
+        "high": "Haute",
+        "urgent": "Urgente"
+      },
+      "field": {
+        "category": "Catégorie",
+        "priority": "Priorité",
+        "contractor": "Prestataire"
+      }
+    },
+    "tool": {
+      "running": "En cours…",
+      "failed": "Échec",
+      "denied": "Pas d'autorisation",
+      "results": "{count, plural, one {# résultat} other {# résultats}}",
+      "names": {
+        "find_units": "Recherche du logement",
+        "list_categories": "Liste des catégories",
+        "list_contractors": "Liste des prestataires",
+        "list_tickets": "Liste des signalements",
+        "create_ticket": "Création du signalement"
+      }
+    },
+    "ticketCreated": {
+      "title": "Signalement créé",
+      "creating": "Création du signalement…",
+      "failed": "Signalement non créé",
+      "unit": "Logement",
+      "category": "Catégorie",
+      "contractor": "Prestataire",
+      "priority": "Priorité",
+      "state": "Statut",
+      "corrected": "Corrigé par l'administrateur",
+      "photo": "Photo jointe"
+    }
+  },
+  "triage": {
+    "title": "Signalements",
+    "subtitle": "Demandes d'intervention classées par l'assistant",
+    "live": "État partagé",
+    "liveHint": "L'agent synchronise cette liste via l'état partagé AG-UI",
+    "updated": "Mis à jour {time}",
+    "empty": "Aucun signalement pour l'instant.",
+    "loading": "Chargement des signalements…",
+    "loadError": "Impossible de charger les signalements.",
+    "draft": "Brouillon / en cours",
+    "draftAwaiting": "En attente de la décision de l'administrateur",
+    "draftSaving": "Enregistrement du signalement…",
+    "newTicket": "Nouveau",
+    "corrected": "Corrigé par l'administrateur",
+    "photo": "Photo",
+    "noCategory": "Sans catégorie",
+    "noContractor": "Sans prestataire",
+    "chatDisabled": "L'assistant est désactivé (NEXT_PUBLIC_COPILOT_ENABLED).",
+    "chatWelcome": "Décrivez le problème : quoi, où (logement) et qui le signale. Vous pouvez joindre une photo.",
+    "status": {
+      "new": "Nouveau",
+      "proposed": "Proposé",
+      "approved": "Approuvé",
+      "assigned": "Attribué",
+      "closed": "Clôturé"
+    },
+    "priority": {
+      "low": "Basse",
+      "normal": "Normale",
+      "high": "Haute",
+      "urgent": "Urgente"
+    },
+    "details": {
+      "title": "Signalement {unit}",
+      "unit": "Logement",
+      "reporter": "Signalé par",
+      "description": "Description",
+      "category": "Catégorie",
+      "contractor": "Prestataire",
+      "priority": "Priorité",
+      "status": "Statut",
+      "created": "Créé",
+      "reference": "Référence",
+      "open": "Afficher le signalement {unit}"
+    }
+  }
+}

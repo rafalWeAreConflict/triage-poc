@@ -1,0 +1,49 @@
+/*
+ * Restyle the CopilotKit chat widget to the template's design system.
+ *
+ * CopilotKit exposes its palette as `--copilot-kit-*` CSS custom properties
+ * (its supported theming API). We point them at the app's shadcn tokens from
+ * globals.css, so the widget tracks the brand colour and light/dark theme
+ * automatically — the tokens are already redefined under `.dark`.
+ */
+:root {
+  --copilot-kit-primary-color: var(--primary);
+  --copilot-kit-contrast-color: var(--primary-foreground);
+  --copilot-kit-background-color: var(--card);
+  --copilot-kit-secondary-color: var(--secondary);
+  --copilot-kit-secondary-contrast-color: var(--foreground);
+  --copilot-kit-separator-color: var(--border);
+  --copilot-kit-muted-color: var(--muted-foreground);
+}
+
+/* Match the app's corner radius and typography on the widget shell. */
+.copilotKitWindow,
+.copilotKitSidebar {
+  border-radius: var(--radius);
+  font-family: inherit;
+}
+
+.copilotKitInput {
+  font-family: inherit;
+}
+
+/*
+ * Threads drawer (shadow-DOM web component). The app nav is a fixed left
+ * column, so the drawer docks on the right of the content instead: it stays
+ * in view while the page scrolls, its divider moves to the left edge, and the
+ * collapsed launcher sits in the empty right end of the 64px page header
+ * rather than over the nav's brand header.
+ */
+copilotkit-threads-drawer {
+  position: sticky;
+  top: 0;
+  height: 100svh;
+  flex-shrink: 0;
+  --cpk-drawer-launcher-top: 10px;
+  --cpk-drawer-launcher-left: calc(100vw - 104px);
+}
+
+copilotkit-threads-drawer::part(root) {
+  border-right: 0;
+  border-left: 1px solid var(--border);
+}

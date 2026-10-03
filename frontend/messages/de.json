@@ -1,0 +1,159 @@
+{
+  "nav": {
+    "triage": "Meldungen",
+    "section": "Plattform",
+    "settings": "Einstellungen"
+  },
+  "user": {
+    "account": "Konto",
+    "notifications": "Benachrichtigungen",
+    "logout": "Abmelden"
+  },
+  "language": {
+    "label": "Sprache",
+    "en": "Englisch",
+    "pl": "Polnisch",
+    "es": "Spanisch",
+    "fr": "Französisch",
+    "de": "Deutsch",
+    "it": "Italienisch",
+    "pt": "Portugiesisch"
+  },
+  "settings": {
+    "title": "Einstellungen",
+    "description": "Verwalten Sie Ihre Anwendungseinstellungen.",
+    "language": {
+      "title": "Sprache",
+      "description": "Wählen Sie die Sprache für die gesamte Benutzeroberfläche."
+    },
+    "theme": {
+      "title": "Erscheinungsbild",
+      "description": "Wählen Sie Ihr bevorzugtes Farbschema.",
+      "light": "Hell",
+      "dark": "Dunkel",
+      "system": "System"
+    }
+  },
+  "copilot": {
+    "title": "Assistent",
+    "initial": "Hallo! Ich kann Instandhaltungsmeldungen einordnen (hängen Sie gern ein Foto des Mangels an) und Datensätze durch ihre Workflows führen. Was möchten Sie tun?",
+    "placeholder": "Assistent fragen…",
+    "workflowApproval": {
+      "title": "Workflow-Übergang bestätigen",
+      "on": "in {workflow}",
+      "question": "Diesen Übergang anwenden?",
+      "approve": "Genehmigen",
+      "deny": "Ablehnen",
+      "approved": "Übergang genehmigt",
+      "denied": "Übergang abgelehnt",
+      "waiting": "Warte auf den Assistenten…"
+    },
+    "triage": {
+      "title": "Ticket-Vorschlag",
+      "unit": "Wohnung",
+      "reporter": "Gemeldet von",
+      "description": "Beschreibung",
+      "category": "Kategorie",
+      "contractor": "Auftragnehmer",
+      "priorityLabel": "Priorität",
+      "photo": "Foto",
+      "photoAttached": "Foto angehängt",
+      "reasoning": "Begründung",
+      "lessonApplied": "Lektion angewendet",
+      "preparing": "Vorschlag wird vorbereitet…",
+      "approve": "Genehmigen",
+      "correct": "Korrigieren",
+      "comment": "Kommentar",
+      "commentPlaceholder": "Warum ändern Sie den Vorschlag?",
+      "commentRequired": "Für eine Korrektur ist ein Kommentar erforderlich.",
+      "contractorRequired": "Wählen Sie einen Auftragnehmer.",
+      "nothingChanged": "Ändern Sie mindestens ein Feld oder genehmigen Sie den Vorschlag unverändert.",
+      "saveCorrection": "Korrektur speichern",
+      "cancel": "Abbrechen",
+      "approved": "Wie vorgeschlagen genehmigt",
+      "corrected": "Vom Administrator korrigiert",
+      "priority": {
+        "low": "Niedrig",
+        "normal": "Normal",
+        "high": "Hoch",
+        "urgent": "Dringend"
+      },
+      "field": {
+        "category": "Kategorie",
+        "priority": "Priorität",
+        "contractor": "Auftragnehmer"
+      }
+    },
+    "tool": {
+      "running": "Läuft…",
+      "failed": "Fehlgeschlagen",
+      "denied": "Keine Berechtigung",
+      "results": "{count, plural, one {# Ergebnis} other {# Ergebnisse}}",
+      "names": {
+        "find_units": "Wohnung suchen",
+        "list_categories": "Kategorien abrufen",
+        "list_contractors": "Auftragnehmer abrufen",
+        "list_tickets": "Meldungen abrufen",
+        "create_ticket": "Meldung erstellen"
+      }
+    },
+    "ticketCreated": {
+      "title": "Meldung erstellt",
+      "creating": "Meldung wird erstellt…",
+      "failed": "Meldung nicht erstellt",
+      "unit": "Wohnung",
+      "category": "Kategorie",
+      "contractor": "Auftragnehmer",
+      "priority": "Priorität",
+      "state": "Status",
+      "corrected": "Vom Admin korrigiert",
+      "photo": "Foto angehängt"
+    }
+  },
+  "triage": {
+    "title": "Meldungen",
+    "subtitle": "Vom Assistenten eingestufte Schadensmeldungen",
+    "live": "Gemeinsamer Zustand",
+    "liveHint": "Der Agent hält diese Liste über den gemeinsamen AG-UI-Zustand aktuell",
+    "updated": "Aktualisiert {time}",
+    "empty": "Noch keine Meldungen.",
+    "loading": "Meldungen werden geladen…",
+    "loadError": "Meldungen konnten nicht geladen werden.",
+    "draft": "Entwurf / in Bearbeitung",
+    "draftAwaiting": "Wartet auf die Entscheidung des Admins",
+    "draftSaving": "Meldung wird gespeichert…",
+    "newTicket": "Neu",
+    "corrected": "Vom Admin korrigiert",
+    "photo": "Foto",
+    "noCategory": "Keine Kategorie",
+    "noContractor": "Kein Auftragnehmer",
+    "chatDisabled": "Der Assistent ist deaktiviert (NEXT_PUBLIC_COPILOT_ENABLED).",
+    "chatWelcome": "Beschreiben Sie den Schaden: was, wo (Wohnung) und wer meldet. Sie können ein Foto anhängen.",
+    "status": {
+      "new": "Neu",
+      "proposed": "Vorgeschlagen",
+      "approved": "Genehmigt",
+      "assigned": "Zugewiesen",
+      "closed": "Geschlossen"
+    },
+    "priority": {
+      "low": "Niedrig",
+      "normal": "Normal",
+      "high": "Hoch",
+      "urgent": "Dringend"
+    },
+    "details": {
+      "title": "Meldung {unit}",
+      "unit": "Wohnung",
+      "reporter": "Gemeldet von",
+      "description": "Beschreibung",
+      "category": "Kategorie",
+      "contractor": "Auftragnehmer",
+      "priority": "Priorität",
+      "status": "Status",
+      "created": "Erstellt",
+      "reference": "Referenz",
+      "open": "Details zur Meldung {unit} anzeigen"
+    }
+  }
+}

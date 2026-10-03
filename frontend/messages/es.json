@@ -1,0 +1,159 @@
+{
+  "nav": {
+    "triage": "Incidencias",
+    "section": "Plataforma",
+    "settings": "Configuración"
+  },
+  "user": {
+    "account": "Cuenta",
+    "notifications": "Notificaciones",
+    "logout": "Cerrar sesión"
+  },
+  "language": {
+    "label": "Idioma",
+    "en": "Inglés",
+    "pl": "Polaco",
+    "es": "Español",
+    "fr": "Francés",
+    "de": "Alemán",
+    "it": "Italiano",
+    "pt": "Portugués"
+  },
+  "settings": {
+    "title": "Configuración",
+    "description": "Gestiona las preferencias de tu aplicación.",
+    "language": {
+      "title": "Idioma",
+      "description": "Elige el idioma que se usará en toda la interfaz."
+    },
+    "theme": {
+      "title": "Apariencia",
+      "description": "Elige tu esquema de colores preferido.",
+      "light": "Claro",
+      "dark": "Oscuro",
+      "system": "Sistema"
+    }
+  },
+  "copilot": {
+    "title": "Asistente",
+    "initial": "¡Hola! Puedo clasificar incidencias de mantenimiento (adjunta una foto del defecto si la tienes) y mover registros por sus flujos de trabajo. ¿Qué quieres hacer?",
+    "placeholder": "Pregunta al asistente…",
+    "workflowApproval": {
+      "title": "Confirmar transición del flujo",
+      "on": "en {workflow}",
+      "question": "¿Aplicar esta transición?",
+      "approve": "Aprobar",
+      "deny": "Denegar",
+      "approved": "Transición aprobada",
+      "denied": "Transición denegada",
+      "waiting": "Esperando al asistente…"
+    },
+    "triage": {
+      "title": "Propuesta de incidencia",
+      "unit": "Vivienda",
+      "reporter": "Informado por",
+      "description": "Descripción",
+      "category": "Categoría",
+      "contractor": "Contratista",
+      "priorityLabel": "Prioridad",
+      "photo": "Foto",
+      "photoAttached": "Foto adjunta",
+      "reasoning": "Justificación",
+      "lessonApplied": "Lección aplicada",
+      "preparing": "Preparando la propuesta…",
+      "approve": "Aprobar",
+      "correct": "Corregir",
+      "comment": "Comentario",
+      "commentPlaceholder": "¿Por qué cambias la propuesta?",
+      "commentRequired": "Se requiere un comentario para la corrección.",
+      "contractorRequired": "Elige un contratista.",
+      "nothingChanged": "Cambia al menos un campo o aprueba la propuesta tal cual.",
+      "saveCorrection": "Guardar corrección",
+      "cancel": "Cancelar",
+      "approved": "Aprobada tal como se propuso",
+      "corrected": "Corregida por el administrador",
+      "priority": {
+        "low": "Baja",
+        "normal": "Normal",
+        "high": "Alta",
+        "urgent": "Urgente"
+      },
+      "field": {
+        "category": "Categoría",
+        "priority": "Prioridad",
+        "contractor": "Contratista"
+      }
+    },
+    "tool": {
+      "running": "En curso…",
+      "failed": "Error",
+      "denied": "Sin permiso",
+      "results": "{count, plural, one {# resultado} other {# resultados}}",
+      "names": {
+        "find_units": "Buscando la vivienda",
+        "list_categories": "Listando categorías",
+        "list_contractors": "Listando contratistas",
+        "list_tickets": "Listando incidencias",
+        "create_ticket": "Creando la incidencia"
+      }
+    },
+    "ticketCreated": {
+      "title": "Incidencia creada",
+      "creating": "Creando la incidencia…",
+      "failed": "Incidencia no creada",
+      "unit": "Vivienda",
+      "category": "Categoría",
+      "contractor": "Contratista",
+      "priority": "Prioridad",
+      "state": "Estado",
+      "corrected": "Corregida por el administrador",
+      "photo": "Foto adjunta"
+    }
+  },
+  "triage": {
+    "title": "Incidencias",
+    "subtitle": "Solicitudes de mantenimiento clasificadas por el asistente",
+    "live": "Estado compartido",
+    "liveHint": "El agente mantiene esta lista sincronizada mediante el estado compartido de AG-UI",
+    "updated": "Actualizado {time}",
+    "empty": "Aún no hay incidencias.",
+    "loading": "Cargando incidencias…",
+    "loadError": "No se pudieron cargar las incidencias.",
+    "draft": "Borrador / en curso",
+    "draftAwaiting": "Esperando la decisión del administrador",
+    "draftSaving": "Guardando la incidencia…",
+    "newTicket": "Nueva",
+    "corrected": "Corregida por el administrador",
+    "photo": "Foto",
+    "noCategory": "Sin categoría",
+    "noContractor": "Sin contratista",
+    "chatDisabled": "El asistente está desactivado (NEXT_PUBLIC_COPILOT_ENABLED).",
+    "chatWelcome": "Describe la avería: qué, dónde (vivienda) y quién la notifica. Puedes adjuntar una foto.",
+    "status": {
+      "new": "Nueva",
+      "proposed": "Propuesta",
+      "approved": "Aprobada",
+      "assigned": "Asignada",
+      "closed": "Cerrada"
+    },
+    "priority": {
+      "low": "Baja",
+      "normal": "Normal",
+      "high": "Alta",
+      "urgent": "Urgente"
+    },
+    "details": {
+      "title": "Incidencia {unit}",
+      "unit": "Vivienda",
+      "reporter": "Notificada por",
+      "description": "Descripción",
+      "category": "Categoría",
+      "contractor": "Contratista",
+      "priority": "Prioridad",
+      "status": "Estado",
+      "created": "Creada",
+      "reference": "Referencia",
+      "open": "Ver detalles de la incidencia {unit}"
+    }
+  }
+}

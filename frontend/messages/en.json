@@ -1,0 +1,159 @@
+{
+  "nav": {
+    "triage": "Triage",
+    "section": "Platform",
+    "settings": "Settings"
+  },
+  "user": {
+    "account": "Account",
+    "notifications": "Notifications",
+    "logout": "Log out"
+  },
+  "language": {
+    "label": "Language",
+    "en": "English",
+    "pl": "Polish",
+    "es": "Spanish",
+    "fr": "French",
+    "de": "German",
+    "it": "Italian",
+    "pt": "Portuguese"
+  },
+  "settings": {
+    "title": "Settings",
+    "description": "Manage your application preferences.",
+    "language": {
+      "title": "Language",
+      "description": "Choose the language used throughout the interface."
+    },
+    "theme": {
+      "title": "Appearance",
+      "description": "Choose your preferred color scheme.",
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
+    }
+  },
+  "copilot": {
+    "title": "Assistant",
+    "initial": "Hi! I can triage maintenance requests (attach a photo of the defect if you have one) and move records through their workflows. What would you like to do?",
+    "placeholder": "Ask the assistant…",
+    "workflowApproval": {
+      "title": "Confirm workflow transition",
+      "on": "on {workflow}",
+      "question": "Apply this transition?",
+      "approve": "Approve",
+      "deny": "Deny",
+      "approved": "Transition approved",
+      "denied": "Transition denied",
+      "waiting": "Waiting for the assistant…"
+    },
+    "triage": {
+      "title": "Ticket proposal",
+      "unit": "Unit",
+      "reporter": "Reported by",
+      "description": "Description",
+      "category": "Category",
+      "contractor": "Contractor",
+      "priorityLabel": "Priority",
+      "photo": "Photo",
+      "photoAttached": "Photo attached",
+      "reasoning": "Reasoning",
+      "lessonApplied": "Lesson applied",
+      "preparing": "Preparing the proposal…",
+      "approve": "Approve",
+      "correct": "Correct",
+      "comment": "Comment",
+      "commentPlaceholder": "Why are you changing the proposal?",
+      "commentRequired": "A comment is required for a correction.",
+      "contractorRequired": "Choose a contractor.",
+      "nothingChanged": "Change at least one field, or approve the proposal as-is.",
+      "saveCorrection": "Save correction",
+      "cancel": "Cancel",
+      "approved": "Approved as proposed",
+      "corrected": "Corrected by the admin",
+      "priority": {
+        "low": "Low",
+        "normal": "Normal",
+        "high": "High",
+        "urgent": "Urgent"
+      },
+      "field": {
+        "category": "Category",
+        "priority": "Priority",
+        "contractor": "Contractor"
+      }
+    },
+    "tool": {
+      "running": "Running…",
+      "failed": "Failed",
+      "denied": "No permission",
+      "results": "{count, plural, one {# result} other {# results}}",
+      "names": {
+        "find_units": "Finding the unit",
+        "list_categories": "Listing categories",
+        "list_contractors": "Listing contractors",
+        "list_tickets": "Listing tickets",
+        "create_ticket": "Creating the ticket"
+      }
+    },
+    "ticketCreated": {
+      "title": "Ticket created",
+      "creating": "Creating the ticket…",
+      "failed": "Ticket not created",
+      "unit": "Unit",
+      "category": "Category",
+      "contractor": "Contractor",
+      "priority": "Priority",
+      "state": "State",
+      "corrected": "Corrected by admin",
+      "photo": "Photo attached"
+    }
+  },
+  "triage": {
+    "title": "Tickets",
+    "subtitle": "Maintenance requests triaged by the assistant",
+    "live": "Shared state",
+    "liveHint": "The agent keeps this list in sync over AG-UI shared state",
+    "updated": "Updated {time}",
+    "empty": "No tickets yet.",
+    "loading": "Loading tickets…",
+    "loadError": "Could not load tickets.",
+    "draft": "Draft / in progress",
+    "draftAwaiting": "Waiting for the admin's decision",
+    "draftSaving": "Saving the ticket…",
+    "newTicket": "New",
+    "corrected": "Corrected by admin",
+    "photo": "Photo",
+    "noCategory": "No category",
+    "noContractor": "No contractor",
+    "chatDisabled": "The assistant is disabled (NEXT_PUBLIC_COPILOT_ENABLED).",
+    "chatWelcome": "Hi! I'm the maintenance triage assistant for Linden Street Housing Cooperative. Describe the problem: what is wrong, which flat (e.g. A/4) and who is reporting it. You can attach a photo, and nothing is created until you approve it.",
+    "status": {
+      "new": "New",
+      "proposed": "Proposed",
+      "approved": "Approved",
+      "assigned": "Assigned",
+      "closed": "Closed"
+    },
+    "priority": {
+      "low": "Low",
+      "normal": "Normal",
+      "high": "High",
+      "urgent": "Urgent"
+    },
+    "details": {
+      "title": "Ticket {unit}",
+      "unit": "Unit",
+      "reporter": "Reported by",
+      "description": "Description",
+      "category": "Category",
+      "contractor": "Contractor",
+      "priority": "Priority",
+      "status": "Status",
+      "created": "Created",
+      "reference": "Reference",
+      "open": "Show ticket {unit} details"
+    }
+  }
+}

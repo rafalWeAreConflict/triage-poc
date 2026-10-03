@@ -1,0 +1,159 @@
+{
+  "nav": {
+    "triage": "Segnalazioni",
+    "section": "Piattaforma",
+    "settings": "Impostazioni"
+  },
+  "user": {
+    "account": "Account",
+    "notifications": "Notifiche",
+    "logout": "Esci"
+  },
+  "language": {
+    "label": "Lingua",
+    "en": "Inglese",
+    "pl": "Polacco",
+    "es": "Spagnolo",
+    "fr": "Francese",
+    "de": "Tedesco",
+    "it": "Italiano",
+    "pt": "Portoghese"
+  },
+  "settings": {
+    "title": "Impostazioni",
+    "description": "Gestisci le preferenze della tua applicazione.",
+    "language": {
+      "title": "Lingua",
+      "description": "Scegli la lingua usata in tutta l'interfaccia."
+    },
+    "theme": {
+      "title": "Aspetto",
+      "description": "Scegli la combinazione di colori preferita.",
+      "light": "Chiaro",
+      "dark": "Scuro",
+      "system": "Sistema"
+    }
+  },
+  "copilot": {
+    "title": "Assistente",
+    "initial": "Ciao! Posso smistare le richieste di manutenzione (allega una foto del guasto se ce l'hai) e far avanzare i record nei loro workflow. Cosa vuoi fare?",
+    "placeholder": "Chiedi all'assistente…",
+    "workflowApproval": {
+      "title": "Conferma transizione del flusso di lavoro",
+      "on": "su {workflow}",
+      "question": "Applicare questa transizione?",
+      "approve": "Approva",
+      "deny": "Rifiuta",
+      "approved": "Transizione approvata",
+      "denied": "Transizione rifiutata",
+      "waiting": "In attesa dell'assistente…"
+    },
+    "triage": {
+      "title": "Proposta di segnalazione",
+      "unit": "Unità",
+      "reporter": "Segnalato da",
+      "description": "Descrizione",
+      "category": "Categoria",
+      "contractor": "Fornitore",
+      "priorityLabel": "Priorità",
+      "photo": "Foto",
+      "photoAttached": "Foto allegata",
+      "reasoning": "Motivazione",
+      "lessonApplied": "Lezione applicata",
+      "preparing": "Preparazione della proposta…",
+      "approve": "Approva",
+      "correct": "Correggi",
+      "comment": "Commento",
+      "commentPlaceholder": "Perché modifichi la proposta?",
+      "commentRequired": "Per una correzione è richiesto un commento.",
+      "contractorRequired": "Scegli un fornitore.",
+      "nothingChanged": "Modifica almeno un campo oppure approva la proposta così com'è.",
+      "saveCorrection": "Salva correzione",
+      "cancel": "Annulla",
+      "approved": "Approvata come proposta",
+      "corrected": "Corretta dall'amministratore",
+      "priority": {
+        "low": "Bassa",
+        "normal": "Normale",
+        "high": "Alta",
+        "urgent": "Urgente"
+      },
+      "field": {
+        "category": "Categoria",
+        "priority": "Priorità",
+        "contractor": "Fornitore"
+      }
+    },
+    "tool": {
+      "running": "In corso…",
+      "failed": "Errore",
+      "denied": "Nessun permesso",
+      "results": "{count, plural, one {# risultato} other {# risultati}}",
+      "names": {
+        "find_units": "Ricerca dell'unità",
+        "list_categories": "Elenco categorie",
+        "list_contractors": "Elenco fornitori",
+        "list_tickets": "Elenco segnalazioni",
+        "create_ticket": "Creazione della segnalazione"
+      }
+    },
+    "ticketCreated": {
+      "title": "Segnalazione creata",
+      "creating": "Creazione della segnalazione…",
+      "failed": "Segnalazione non creata",
+      "unit": "Unità",
+      "category": "Categoria",
+      "contractor": "Fornitore",
+      "priority": "Priorità",
+      "state": "Stato",
+      "corrected": "Corretta dall'amministratore",
+      "photo": "Foto allegata"
+    }
+  },
+  "triage": {
+    "title": "Segnalazioni",
+    "subtitle": "Richieste di manutenzione classificate dall'assistente",
+    "live": "Stato condiviso",
+    "liveHint": "L'agente mantiene questa lista sincronizzata tramite lo stato condiviso AG-UI",
+    "updated": "Aggiornato {time}",
+    "empty": "Ancora nessuna segnalazione.",
+    "loading": "Caricamento delle segnalazioni…",
+    "loadError": "Impossibile caricare le segnalazioni.",
+    "draft": "Bozza / in corso",
+    "draftAwaiting": "In attesa della decisione dell'amministratore",
+    "draftSaving": "Salvataggio della segnalazione…",
+    "newTicket": "Nuova",
+    "corrected": "Corretta dall'amministratore",
+    "photo": "Foto",
+    "noCategory": "Nessuna categoria",
+    "noContractor": "Nessun fornitore",
+    "chatDisabled": "L'assistente è disattivato (NEXT_PUBLIC_COPILOT_ENABLED).",
+    "chatWelcome": "Descrivi il guasto: cosa, dove (unità) e chi lo segnala. Puoi allegare una foto.",
+    "status": {
+      "new": "Nuova",
+      "proposed": "Proposta",
+      "approved": "Approvata",
+      "assigned": "Assegnata",
+      "closed": "Chiusa"
+    },
+    "priority": {
+      "low": "Bassa",
+      "normal": "Normale",
+      "high": "Alta",
+      "urgent": "Urgente"
+    },
+    "details": {
+      "title": "Segnalazione {unit}",
+      "unit": "Unità",
+      "reporter": "Segnalata da",
+      "description": "Descrizione",
+      "category": "Categoria",
+      "contractor": "Fornitore",
+      "priority": "Priorità",
+      "status": "Stato",
+      "created": "Creata",
+      "reference": "Riferimento",
+      "open": "Mostra i dettagli della segnalazione {unit}"
+    }
+  }
+}
